@@ -1,0 +1,31 @@
+.nav-bar{
+    display: flex;
+    background-color: lightgray;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    font-size: 24px;
+    padding: 0 30px;
+}
+
+.spacer{
+    flex:1;
+}
+
+.links a{
+    font-size: 18px;
+    padding: 0 30px;
+    text-decoration: none;
+    color: rgb(71, 70, 70);
+}
+
+.links li{
+    list-style: none;
+}
+
+.links a:hover{
+    color: darkgray;
+    cursor: pointer;
+}
